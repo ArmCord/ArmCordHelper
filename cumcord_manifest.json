@@ -1,0 +1,7 @@
+{
+  "name": "ArmCordHelper",
+  "description": "Cumcord plugin to enhance your ArmCord experience.",
+  "author": "smartfridge#9557",
+  "file": "src/index.js",
+  "license": "Mit"
+}
