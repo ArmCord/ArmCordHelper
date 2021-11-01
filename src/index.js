@@ -6,7 +6,7 @@ export default (data) => {
       onLoad() {
           c.log("Starting...")
           if (!window.electron && window.DiscordNative) {
-                c.log("Not in ArmCord.")
+                c.warn("Not in ArmCord.")
                 showToast({title: "ArmCord Helper can't detect native bridge!", content: "It seems that you're running this plugin inside official Discord client. It's meant to run inside ArmCord client. It won't work here due to missing APIs! Please remove this plugin and reload your client.", duration: 300000});
                 return
           } else {
