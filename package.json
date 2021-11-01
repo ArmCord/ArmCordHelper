@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "sperm dev cumcord_manifest.json",
-    "build": "echo 'ok'",
+    "build": "sperm build cumcord_manifest.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
